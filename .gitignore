@@ -11,5 +11,5 @@
 bin
 bin-int
 
-# DoomWADLoader
-*.wad
+# Vulkan
+Vendor/Vulkan/Vulkan/

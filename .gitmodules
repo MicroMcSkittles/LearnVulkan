@@ -1,0 +1,6 @@
+[submodule "Vendor/GLM/glm"]
+	path = Vendor/GLM/glm
+	url = https://github.com/icaven/glm.git
+[submodule "Vendor/GLFW/GLFW"]
+	path = Vendor/GLFW/GLFW
+	url = https://github.com/glfw/glfw.git

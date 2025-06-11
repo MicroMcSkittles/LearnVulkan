@@ -16,7 +16,20 @@ project "LearnVulkan"
     }
 
     includedirs {
-        "src"
+        "src",
+        rootdir .. "Vendor/GLFW/GLFW/include",
+        rootdir .. "Vendor/GLM/GLM",
+        rootdir..  "Vendor/Vulkan/Vulkan/include"
+    }
+
+-- Link libraries ===================
+    libdirs {
+        rootdir .. "Vendor/Vulkan/Vulkan/lib"
+    }
+    links {
+        "GLFW",
+        --rootdir .. "Vendor/Vulkan/Vulkan/lib/**.lib"
+        "vulkan-1.lib"
     }
 
 -- Windows ==========================
